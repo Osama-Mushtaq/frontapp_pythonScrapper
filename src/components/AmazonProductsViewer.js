@@ -87,7 +87,7 @@ function ProductList() {
                 <div className="lg:col-span-9">
                     <div style={{ background: 'white' }} className="rounded-lg shadow-lg min-h-[80vh] lg:h-screen">
                         <div className="p-4">
-                            <h2 className="text-xl font-bold mb-4">
+                            <h2 className="text-xl font-bold mb-4 capitalize">
                                 {selected ? selected + " Products" : "Pick a category"}
                             </h2>
                             <div className="overflow-x-auto">
