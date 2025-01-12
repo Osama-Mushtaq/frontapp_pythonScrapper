@@ -73,7 +73,7 @@ function ProductList() {
                                         <button
                                             key={cat}
                                             onClick={() => selectCategory(cat)}
-                                            className={selected === cat ? 'w-full text-left px-4 py-2 rounded-lg bg-blue-500 text-white' : 'w-full text-left px-4 py-2 rounded-lg hover:bg-gray-100'}
+                                            className={selected === cat ? 'w-full text-left px-4 py-2 rounded-lg bg-blue-500 text-white capitalize' : 'w-full text-left px-4 py-2 rounded-lg hover:bg-gray-100 capitalize'}
                                         >
                                             {cat}
                                         </button>
